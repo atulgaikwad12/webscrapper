@@ -80,4 +80,11 @@ def index():
 
 if __name__ == "__main__":
     #app.run(host='127.0.0.1', port=8001, debug=True)
+    #can do env setup in anaconda promt also using requiremnt.txt
+    #conda create -n envname python=3.6.9
+    #active envname
+    #cd requiremnt.txt file location
+    #change drive
+    #pip install -r requirement.txt
+
 	app.run(debug=True)
